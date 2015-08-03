@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>testflow</label>
+    <screens>
+        <name>Entry</name>
+        <label>Entry</label>
+        <locationX>260</locationX>
+        <locationY>236</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <fields>
+            <name>Hello</name>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+    </screens>
+    <screens>
+        <name>testflow</name>
+        <label>testflow</label>
+        <locationX>265</locationX>
+        <locationY>81</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <connector>
+            <targetReference>Entry</targetReference>
+        </connector>
+        <fields>
+            <name>tst</name>
+            <dataType>String</dataType>
+            <fieldText>tst</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+    </screens>
+    <startElementReference>testflow</startElementReference>
+</Flow>

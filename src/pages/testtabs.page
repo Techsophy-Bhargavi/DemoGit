@@ -1,0 +1,10 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page: testtabs
+  <!-- End Default Content REMOVE THIS -->
+  
+  <apex:tabpanel >
+  <apex:tab ></apex:tab>
+  </apex:tabpanel>
+</apex:page>

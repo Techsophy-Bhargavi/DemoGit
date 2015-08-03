@@ -1,0 +1,6 @@
+<apex:page >
+  <script type="text/javascript">
+name=window.prompt('Please enter your name: ','');
+document.write('hello '+name+ ' !');
+</script>
+</apex:page>

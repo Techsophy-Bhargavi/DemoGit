@@ -1,0 +1,11 @@
+<apex:page standardController="Contact" showHeader="false" sidebar="false">
+<style type="text/css">
+body
+{ 
+background-image:url('backgroundstyles.jpeg');
+}
+</style>
+
+
+   <apex:image url="{!$Resource.backgroundstyles}" width="1024" height="700"/>
+</apex:page>

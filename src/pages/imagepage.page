@@ -1,0 +1,23 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page
+  <html>
+<head>
+<script>
+function displayResult()
+{
+document.body.style.backgroundColor="#f3f3f3";
+document.body.style.backgroundImage="url('images/DSC06101 new.jpg')";
+}
+</script>
+</head>
+<body>
+
+<h1>Hello World!</h1>
+<br />
+<button type="button" onclick="displayResult()">Set background image</button>
+
+</body>
+</html>
+</apex:page>

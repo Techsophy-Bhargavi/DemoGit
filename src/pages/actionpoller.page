@@ -1,0 +1,25 @@
+<apex:page controller="exampleCon">
+<apex:form >
+<apex:outputText value="Watch this counter: {!count}" id="counter"/>
+<apex:actionPoller action="{!incrementCounter}" rerender="counter" interval="5" timeout="10000"/>
+</apex:form>
+
+<apex:stylesheet value="http://developer.force.com/workbooks/vfdemo2.css"/>
+<h1>My Fancy Site</h1>
+<apex:insert name="body"/>
+<apex:pageBlock title="header">
+<apex:pageBlockSection title="footer">
+<br>I am inside</br>
+<apex:pageBlockSectionItem >
+am item 
+</apex:pageBlockSectionItem>
+</apex:pageBlockSection>
+</apex:pageBlock>
+this is compostion
+<apex:composition template="hipage">
+<apex:define name="body">
+<p>This is a simple page demonstrating that
+this text is substituted, and that a banner is created.</p>
+</apex:define>
+</apex:composition>
+</apex:page>
